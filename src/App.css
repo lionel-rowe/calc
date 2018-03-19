@@ -1,0 +1,57 @@
+body {
+  background: #002;
+}
+
+h1 {
+  color: ivory;
+}
+
+.app {
+  text-align: center;
+}
+
+.calculator {
+  background: blue;
+  margin: auto;
+  width: 320px;
+  height: 420px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  user-select: none;
+}
+
+.calcBtn {
+  width: 80px;
+  height: 70px;
+  line-height: 1em;
+  font-size: 2em;
+  background: deepskyblue;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.calcBtn:focus {
+  outline: none;
+  /*outline: 3px solid navy;*/
+}
+
+.calcBtn:hover {
+  background: #99ddff;
+}
+
+.calcBtn:active, .calcBtn.fauxActive {
+  background: white;
+}
+
+.screen {
+  width: 300px;
+  height: 50px;
+  background: lightgray;
+  margin: auto;
+  padding: 15px 10px 5px;
+  text-align: right;
+  font-family: 'Consolas', monospace;
+  font-size: 2em;
+}
